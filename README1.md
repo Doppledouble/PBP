@@ -1,9 +1,14 @@
 1.
 
+![Gambar]('../../katalog/PBP (Konsep Model, Views, dan Template (MVT))_IanSuryadiTimothyH.png?raw=true')
+
+gambar di atas menjelaskan bahwa request yang masuk ke dalam server django akan diproses melalui urls.py dan dilanjutkan ke view.py. Jika membutuhkan keterlibatan database, maka akan mengembalikan hasil Query yang sudah diapnggil sebelumnya ke models, dan views.py akan menerima kembali respons data hasil query yang diberikan.
+Setelah itu, memilih template sesuai respon data yang diterima, dan hasil yang sudah dipetakan ke templates.html, akan dikemablikan ke user sebagai hasil akhir.
 2.
 Tujuan dasar penggunaan Virtual environment ketika membuat sebuah Web-Based app adalah untuk melengkapi beberapa ketergantungan yang dibutuhkan oleh project-project
 yang berbeda dengan membuat sebuah wadah yang terisolasi untuk project itu sendiri. Contoh konkretnya adalah ketika kita sedang membuat sebuah project web, namun 
 kedua project tersebut menggunakan django dengan versi yang berbeda, sehingga di situlah virtual environment dapat berguna untuk melengkapi kebutuhan kedua project.
+
 3.
 ### views.py
 pada file views.py saya hanya menambahkan beberapa data dengan
