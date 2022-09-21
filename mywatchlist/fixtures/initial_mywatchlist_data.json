@@ -1,0 +1,112 @@
+[
+    {
+        "model":"mywatchlist.BarangWatchlist",
+        "pk":1,
+        "fields":{
+            "watched":"iPhone 14 Pro Maag",
+            "title":"14000000",
+            "rating": "Bikin sakit Maag karena harganya mahal.",
+            "release_date":"",
+            "review":""
+        }
+    },
+    {
+        "model":"mywatchlist.BarangWatchlist",
+        "pk":2,
+        "fields":{
+            "watched":"Topi Bundar",
+            "title":"99000",
+            "rating": "Bundar topi saya, kalau tidak bundar bukan topi saya.",
+            "release_date":"",
+            "review":""
+        }
+    },
+    {
+        "model":"mywatchlist.BarangWatchlist",
+        "pk":3,
+        "fields":{
+            "watched":"Kasur Lipat",
+            "title":"500000",
+            "rating": "Berapa lapis? Ratusan!",
+            "release_date":"",
+            "review":""
+        }
+    },
+    {
+        "model":"mywatchlist.BarangWatchlist",
+        "pk":4,
+        "fields":{
+            "watched":"Topi Bundar",
+            "title":"99000",
+            "rating": "Bundar topi saya, kalau tidak bundar bukan topi saya.",
+            "release_date":"",
+            "review":""
+        }
+    },
+    {
+        "model":"mywatchlist.BarangWatchlist",
+        "pk":5,
+        "fields":{
+            "watched":"Topi Bundar",
+            "title":"99000",
+            "rating": "Bundar topi saya, kalau tidak bundar bukan topi saya.",
+            "release_date":"",
+            "review":""
+        }
+    },
+    {
+        "model":"mywatchlist.BarangWatchlist",
+        "pk":6,
+        "fields":{
+            "watched":"Topi Bundar",
+            "title":"99000",
+            "rating": "Bundar topi saya, kalau tidak bundar bukan topi saya.",
+            "release_date":"",
+            "review":""
+        }
+    },
+    {
+        "model":"mywatchlist.BarangWatchlist",
+        "pk":7,
+        "fields":{
+            "watched":"Topi Bundar",
+            "title":"99000",
+            "rating": "Bundar topi saya, kalau tidak bundar bukan topi saya.",
+            "release_date":"",
+            "review":""
+        }
+    },
+    {
+        "model":"mywatchlist.BarangWatchlist",
+        "pk":8,
+        "fields":{
+            "watched":"Topi Bundar",
+            "title":"99000",
+            "rating": "Bundar topi saya, kalau tidak bundar bukan topi saya.",
+            "release_date":"",
+            "review":""
+        }
+    },
+    {
+        "model":"mywatchlist.BarangWatchlist",
+        "pk":9,
+        "fields":{
+            "watched":"Topi Bundar",
+            "title":"99000",
+            "rating": "Bundar topi saya, kalau tidak bundar bukan topi saya.",
+            "release_date":"",
+            "review":""
+        }
+    },
+    {
+        "model":"mywatchlist.BarangWatchlist",
+        "pk":10,
+        "fields":{
+            "watched":"Topi Bundar",
+            "title":"99000",
+            "rating": "Bundar topi saya, kalau tidak bundar bukan topi saya.",
+            "release_date":"",
+            "review":""
+        }
+    }
+]
