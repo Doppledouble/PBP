@@ -3,110 +3,110 @@
         "model":"mywatchlist.BarangWatchlist",
         "pk":1,
         "fields":{
-            "watched":"iPhone 14 Pro Maag",
-            "title":"14000000",
-            "rating": "Bikin sakit Maag karena harganya mahal.",
-            "release_date":"",
-            "review":""
+            "watched":"Yes",
+            "title":"Incantation",
+            "rating": 9.2,
+            "release_date":"18th March 2022",
+            "review":"A very brand new point of view from a horror genre movie which is very frightening and interesting for the audience."
         }
     },
     {
         "model":"mywatchlist.BarangWatchlist",
         "pk":2,
         "fields":{
-            "watched":"Topi Bundar",
-            "title":"99000",
-            "rating": "Bundar topi saya, kalau tidak bundar bukan topi saya.",
-            "release_date":"",
-            "review":""
+            "watched":"No",
+            "title":"One Piece : RED",
+            "rating": 0.0,
+            "release_date":"21st September 2022",
+            "review":"-"
         }
     },
     {
         "model":"mywatchlist.BarangWatchlist",
         "pk":3,
         "fields":{
-            "watched":"Kasur Lipat",
-            "title":"500000",
-            "rating": "Berapa lapis? Ratusan!",
-            "release_date":"",
-            "review":""
+            "watched":"Yes",
+            "title":"Uncut Gems",
+            "rating": 8.5,
+            "release_date":"25th December 2019",
+            "review":"Pretty good film produced by Netflix. Tells a story of a man who likes to make a lot of money from selling diamonds and got rich."
         }
     },
     {
         "model":"mywatchlist.BarangWatchlist",
         "pk":4,
         "fields":{
-            "watched":"Topi Bundar",
-            "title":"99000",
-            "rating": "Bundar topi saya, kalau tidak bundar bukan topi saya.",
-            "release_date":"",
-            "review":""
+            "watched":"No",
+            "title":"Oppenheimer",
+            "rating": 0.0,
+            "release_date":"21st August 2023",
+            "review":"-"
         }
     },
     {
         "model":"mywatchlist.BarangWatchlist",
         "pk":5,
         "fields":{
-            "watched":"Topi Bundar",
-            "title":"99000",
-            "rating": "Bundar topi saya, kalau tidak bundar bukan topi saya.",
-            "release_date":"",
-            "review":""
+            "watched":"Yes",
+            "title":"Seoul Vibe",
+            "rating": 7.2,
+            "release_date":"26 August 2022",
+            "review":"Funny movie, good actors and actresses, but the plot is still mediocre."
         }
     },
     {
         "model":"mywatchlist.BarangWatchlist",
         "pk":6,
         "fields":{
-            "watched":"Topi Bundar",
-            "title":"99000",
-            "rating": "Bundar topi saya, kalau tidak bundar bukan topi saya.",
-            "release_date":"",
-            "review":""
+            "watched":"No",
+            "title":"The Big Short",
+            "rating": 0.0,
+            "release_date":"13th January 2016",
+            "review":"-"
         }
     },
     {
         "model":"mywatchlist.BarangWatchlist",
         "pk":7,
         "fields":{
-            "watched":"Topi Bundar",
-            "title":"99000",
-            "rating": "Bundar topi saya, kalau tidak bundar bukan topi saya.",
-            "release_date":"",
-            "review":""
+            "watched":"Yes",
+            "title":"Joker",
+            "rating": 9.3,
+            "release_date":"2nd October 2019",
+            "review":"Amazing story of a new-born villain character in DC comic which create a belief that bad guys were good guys that were treated disrespectfully."
         }
     },
     {
         "model":"mywatchlist.BarangWatchlist",
         "pk":8,
         "fields":{
-            "watched":"Topi Bundar",
-            "title":"99000",
-            "rating": "Bundar topi saya, kalau tidak bundar bukan topi saya.",
-            "release_date":"",
-            "review":""
+            "watched":"Yes",
+            "title":"Tenet",
+            "rating": 8.1,
+            "release_date":"10th February 2021",
+            "review":"Good plot, amazing style on its cinematography, but it requires a lot of thinking proccess to comprehend the whole point of the movie."
         }
     },
     {
         "model":"mywatchlist.BarangWatchlist",
         "pk":9,
         "fields":{
-            "watched":"Topi Bundar",
-            "title":"99000",
-            "rating": "Bundar topi saya, kalau tidak bundar bukan topi saya.",
-            "release_date":"",
-            "review":""
+            "watched":"No",
+            "title":"Sicario: Capos",
+            "rating": 0.0,
+            "release_date":"TBA",
+            "review":"-"
         }
     },
     {
         "model":"mywatchlist.BarangWatchlist",
         "pk":10,
         "fields":{
-            "watched":"Topi Bundar",
-            "title":"99000",
-            "rating": "Bundar topi saya, kalau tidak bundar bukan topi saya.",
-            "release_date":"",
-            "review":""
+            "watched":"Yes",
+            "title":"The Imitation Game",
+            "rating": 8.8,
+            "release_date":"28th September 2014",
+            "review":"Inspirational movie and a very inspiring character that being reflected by the actor and the plot of the story."
         }
     }
 ]
