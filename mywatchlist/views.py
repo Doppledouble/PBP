@@ -15,11 +15,11 @@ def show_mywatchlist(request):
         }
         
 
-        for movie in context.get("Watched"):
+        for movie in data_movies_mywatchlist:
             if movie.watched == "Yes":
                 context["TotalWatchedFilms"] += 1
 
-        if context["TotalWatchedFilms"] >= (len(context.get("Watched"))/2):
+        if context["TotalWatchedFilms"] >= (len(data_movies_mywatchlist)/2):
             context["Status"] += "Selamat, kamu sudah banyak menonton!"
         else:
             context["Status"] += "Wah, kamu masih sedikit menonton!"
