@@ -9,8 +9,21 @@ def show_mywatchlist(request):
         context = {
         'Watched': data_movies_mywatchlist,
         'nama': 'Ian Suryadi Timothy H ',
-        'npm' : '2106750875'
+        'npm' : '2106750875',
+        'TotalWatchedFilms': 0,
+        'Status' :""
         }
+        
+
+        for movie in context.get("Watched"):
+            if movie.watched == "Yes":
+                context["TotalWatchedFilms"] += 1
+
+        if context["TotalWatchedFilms"] >= (len(context.get("Watched"))/2):
+            context["Status"] += "Selamat, kamu sudah banyak menonton!"
+        else:
+            context["Status"] += "Wah, kamu masih sedikit menonton!"
+
         return render(request, "mywatchlist.html",context)
 # Create your views here.
 def show_xml(request):
