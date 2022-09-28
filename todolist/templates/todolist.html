@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% csrf_token %}
+
+<h5>Nama: </h5>
+<p>{{nama}}</p>
+
+<table>
+    <tr>
+    <th>Judul To do</th>
+    <th>Tanggal</th>
+    <th>Deskripsi</th>
+    <th>Selesai/Belum Selesai</th>
+    <th>Mengubah Status To Do</th>
+    <th>Hapus</th>
+    </tr>
+    {% comment %} Tambahkan data di bawah baris ini {% endcomment %}
+    {% for todolist in list_todo %}
+    <tr>
+        <th>{{todolist.title}}</th>
+        <th>{{todolist.date}}</th>
+        <th>{{todolist.description}}</th>
+        {% if todolist.is_finished == False %}
+        <th>Belum Selesai</th>
+        {% else %}
+        <th>Selesai</th>
+        {% endif %}
+        <th><a href="{% url 'todolist:checklist' todolist.pk %}"><button>Check</button></th>
+        <th><a href="{% url 'todolist:deletee' todolist.pk %}"><button>Delete</button></th>
+        
+    </tr>
+{% endfor %}
+</table>
+
+
+<h5>Sesi terakhir login: {{ last_login }}</h5>
+<button><a href="{% url 'todolist:create-task' %}">Add New Task</a></button>
+<button><a href="{% url 'todolist:logout' %}">Logout</a></button>
+
+
+{% endblock content %}
