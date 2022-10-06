@@ -38,3 +38,15 @@ Pertama, user akan melakukan page request ke server, jika request merupakan requ
 Akun yang saya buat adalah :
 1. username : IanIan, Password : dumdum123
 2. username : yujin,  Password : hastaluego22
+
+
+
+# PENJELASAN TUGAS 5
+
+**1. Apa perbedaan dari Inline, Internal, dan External CSS? Apa saja kelebihan dan kekurangan dari masing-masing style?**
+Untuk Inline CSS karena dia menggunakan atribut <style> agar memberikan sebuah style kepada tag HTML tertentu, kekurangannya adalah jika ingin memberikan perubahan yang merata atau besar, maka inline CSS harus diterapkan pada setiap elemen yang ingin diubah. Namun kelebihannya, karena perubahan yang terjadi hanya di element tertentu, maka dapat digunakan untuk menguji atau melihat perubahan, berguna untuk perbaikan cepat, dan ukuran request HTTPnya lebih kecil.
+Untuk internal CSS, biasa diletakkan di bagian <head> pada sebuah halaman HTML. Ini merupakan better practice dari inline CSS karena dapat merubah sekelompok element sekaligus, berbeda dengan inline yang harus diterapkan pada setiap element masing-masing. Opsi ini ideal untuk web yang hanya mempunyai 1 halaman HTML karena perubahan hanya terjadi di 1 halaman. Namun kekurangannya jika web mempunyai beberapa halaman dan kita ingin membuat perubahan pada semua halaman, maka kurang efisien karena jika kita ingin memakai CSS yang sama, maka perlu meng-upload file terlebih dahulu pada setiap halaman.
+Untuk external CSS, opsi ini dikenal menjadi opsi yang paling nyaman untuk digunakan. Sama seperti internal, biasa diletakkan di bagian <head> halaman. Kelebihan dari external CSS adalah file CSS yang sama dapat digunakan di halaman-halaman lain, setelah itu kecepatan loading juga lebih cepat, dan ukuran file HTML menjadi lebih kecil dan strukturnya lebih rapih. kekurangannya mungkin cukup sedikit dibandingkan yang lain, salah satunya adalah halaman belum tampil secaraa sempurna hingga file CSS selesai dipanggil.
+
+**2. Jelaskan tag HTML5 yang kamu ketahui.**
+terdapat <font> untuk menentukan font, warna, dan ukuran dari sebuah text. Ada <div> untuk membuat bagian-bagian pada halaman. <h1>-<h6> untuk mendefinisikan sebuah header dengan ukuran dari besar sampai kecil. <link> Mendefinisikan hubungan antara file dengan external resource.<script> Membuat script
