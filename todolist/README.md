@@ -49,4 +49,11 @@ Untuk internal CSS, biasa diletakkan di bagian <head> pada sebuah halaman HTML. 
 Untuk external CSS, opsi ini dikenal menjadi opsi yang paling nyaman untuk digunakan. Sama seperti internal, biasa diletakkan di bagian <head> halaman. Kelebihan dari external CSS adalah file CSS yang sama dapat digunakan di halaman-halaman lain, setelah itu kecepatan loading juga lebih cepat, dan ukuran file HTML menjadi lebih kecil dan strukturnya lebih rapih. kekurangannya mungkin cukup sedikit dibandingkan yang lain, salah satunya adalah halaman belum tampil secaraa sempurna hingga file CSS selesai dipanggil.
 
 **2. Jelaskan tag HTML5 yang kamu ketahui.**
-terdapat <font> untuk menentukan font, warna, dan ukuran dari sebuah text. Ada <div> untuk membuat bagian-bagian pada halaman. <h1>-<h6> untuk mendefinisikan sebuah header dengan ukuran dari besar sampai kecil. <link> Mendefinisikan hubungan antara file dengan external resource.<script> Membuat script
+terdapat <font> untuk menentukan font, warna, dan ukuran dari sebuah text. Ada <div> untuk membuat bagian-bagian pada halaman. <h1>-<h6> untuk mendefinisikan sebuah header dengan ukuran dari besar sampai kecil. <link> Mendefinisikan hubungan antara file dengan external resource.<table> untuk membuat sebuah table pada halaman web.
+
+**3. Jelaskan tipe-tipe CSS selector yang kamu ketahui**
+terdapat class, id, dan element selector. element selector menggunakan tag HTML sebagai selector untuk mengubah properti pada atribut tersebut.
+ID selector menggunakan ID pada tag sebagai selectornya, sedankgan class selector digunakan dengan menambah class pada tag HTML, kemudian class selector tersebut ditambah pada file CSS yang bersangkutan.
+
+**4. Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas**
+Sebagian besar saya menggunakan eksternal CSS yang didapat dari internet. Saya menggunakan fitur-fitur bootstrap sepert navbar, cards, dan warna background. Terdapat style dengan CSS juga untuk mengatur style dari sebuah text dan lain-lain.
