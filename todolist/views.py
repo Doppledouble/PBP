@@ -81,3 +81,30 @@ def logout_user(request):
     response.delete_cookie('last_login')
     return response
 
+# AJAX
+@login_required(login_url='/todolist/login/')
+def todolist_ajax(request):
+    ajax_todolist = BarangToDolist.objects.filter(user=request.user)
+    context = {
+    'ajax_todolist' : ajax_todolist,
+    'username' :  request.user.username,
+    'last_login': request.COOKIES['last_login'],
+    }
+    return render(request, "todolist_ajax.html", context)
+
+# AJAX GET
+def get_todolist_json(request):
+    data_ajax = BarangToDolist.objects.filter(user=request.user)
+
+    return HttpResponse(serializers.serialize("json", data_ajax), content_type="application/json")
+
+# ADD BarangToDolist MODAL
+def add(request):
+    if request.method == 'POST':
+        title = request.POST.get('title')
+        description = request.POST.get('description')
+        date = datetime.datetime.now()
+        user = request.user
+        BarangToDolist.objects.create(title=title, description=description, date=date, user=user)
+         
+        return HttpResponse(b"CREATED", status=201)
